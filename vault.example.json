@@ -1,0 +1,68 @@
+{
+    "aws": {
+      "access": "",
+      "bucket": "prod",
+      "internal": "",
+      "s3": "https://cdn.llmrails.com/",
+      "secret": ""
+    },
+    "ayfie": {
+      "key": "",
+      "url": "https://converter.portal.ayfie.com/api/converter/1/FileConverter/Convert"
+    },
+    "azure-openai": "",
+    "embedding_api": "http://10.*.*.*:5500",
+    "embeddings": {
+      "english": "http://10.*.*.*:8080",
+      "multi": "http://10.*.*.*:8081"
+    },
+    "mysql": {
+      "crawl": {
+        "host": "crawler.privatelink.mysql.database.azure.com",
+        "name": "app",
+        "pass": "",
+        "port": "3306",
+        "user": ""
+      },
+      "main": {
+        "host": "llm-dev.mysql.database.azure.com",
+        "name": "app",
+        "pass": "****",
+        "port": "3306",
+        "user": ""
+      }
+    },
+    "openai": "sk-******",
+    "redis": {
+      "host": "10.*.*.*",
+      "password": null,
+      "port": 6379
+    },
+    "rmq": {
+      "host": "10.*.*.*",
+      "parser": {
+        "pass": "****",
+        "user": "parser",
+        "vhost": "parser"
+      },
+      "parser-dev": {
+        "pass": "*****",
+        "user": "parser-dev",
+        "vhost": "parser-dev"
+      },
+      "port": 5672,
+      "secure": false,
+      "semantic": {
+        "pass": "****",
+        "user": "semantic",
+        "vhost": "semantic"
+      },
+      "semantic-dev": {
+        "pass": "*****",
+        "user": "semantic-dev",
+        "vhost": "semantic-dev"
+      }
+    },
+    "root": "",
+    "vector_db": "http://10.*.*.*:8080"
+  }

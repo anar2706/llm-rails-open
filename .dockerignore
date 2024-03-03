@@ -1,0 +1,10 @@
+__pycache__
+
+*.pyc
+.venv
+.idea
+.vscode
+*.pdf
+locust.pyc
+alfa.html
+secret.env

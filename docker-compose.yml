@@ -1,0 +1,15 @@
+version: "3"
+
+services: 
+
+  llm-api-dev:
+    build: .
+    image: llm-api-dev
+    restart: always
+    env_file:
+      - secret.env
+    environment:
+      - WEB_CONCURRENCY=2
+      - PORT=7000
+    ports: 
+      - 7000:7000

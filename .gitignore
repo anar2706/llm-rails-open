@@ -1,0 +1,8 @@
+.venv
+.venv/
+/.venv
+__pycache__/
+locust.py
+run.sh
+helpers.sh
+secret.env

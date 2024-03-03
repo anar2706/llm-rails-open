@@ -1,0 +1,12 @@
+version: "3"
+
+services: 
+
+  celery-app:
+    build: 
+      context: .
+      dockerfile: Worker.Dockerfile
+    image: celery-app
+    restart: always
+    env_file:
+      - secret.env
